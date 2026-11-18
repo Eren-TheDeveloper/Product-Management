@@ -1,0 +1,37 @@
+# Dependencies and build output in both applications
+node_modules/
+dist/
+dist-ssr/
+coverage/
+*.tsbuildinfo
+
+# Local environment and credentials; only templates belong in the repository
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Generated files and test artifacts
+Backend/src/generated/prisma/
+playwright-report/
+test-results/
+blob-report/
+logs/
+*.log
+*.dump
+*.backup
+
+# Machine-specific editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.suo
+*.swp
+*.swo

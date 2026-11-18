@@ -1,0 +1,1032 @@
+@media (min-width: 1600px) {
+  .main-content {
+    padding-top: 45px;
+  }
+  .stats-grid {
+    gap: 22px;
+  }
+  .stat-card {
+    padding: 22px 24px;
+  }
+  .stat-value {
+    font-size: 36px;
+    margin: 12px 0;
+  }
+  .stat-value.currency-value {
+    font-size: 33px;
+  }
+  .stat-top {
+    font-size: 13px;
+  }
+  .stat-note {
+    font-size: 10px;
+  }
+  .panel-heading {
+    padding: 25px 25px 0;
+  }
+  .panel h2 {
+    font-size: 15px;
+  }
+  .panel-heading p {
+    font-size: 11px;
+  }
+  .bar-chart {
+    height: 240px;
+    padding-top: 35px;
+  }
+  .chart-plot,
+  .chart-y-axis {
+    height: 177px;
+  }
+  .donut-wrap {
+    height: 216px;
+  }
+  .donut {
+    width: 170px;
+    height: 170px;
+  }
+  .donut-hole {
+    width: 142px;
+    height: 142px;
+  }
+  .health-legend {
+    padding-bottom: 25px;
+  }
+  .product-table td {
+    padding-block: 15px;
+    font-size: 12px;
+  }
+  .product-name-button {
+    font-size: 12px;
+  }
+  .product-name-button small {
+    font-size: 9px;
+  }
+  .product-table th {
+    font-size: 10px;
+    padding-block: 14px;
+  }
+  .product-art {
+    width: 42px;
+    height: 42px;
+  }
+  .product-toolbar {
+    padding-top: 18px;
+  }
+  .filter-tabs button {
+    font-size: 11px;
+  }
+  .table-search input {
+    font-size: 11px;
+    width: 145px;
+  }
+  .status-badge {
+    font-size: 9px;
+  }
+  .panel-heading.products-heading {
+    padding-bottom: 10px;
+  }
+  .attention-banner {
+    padding: 17px 20px;
+  }
+  .attention-banner strong {
+    font-size: 12px;
+  }
+  .attention-banner p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 1250px) {
+  .sidebar {
+    width: 212px;
+    padding-inline: 13px;
+  }
+  .main-shell {
+    margin-left: 212px;
+  }
+  .brand {
+    font-size: 27px;
+    gap: 7px;
+    padding-inline: 5px;
+  }
+  .brand-version {
+    display: none;
+  }
+  .workspace-selector {
+    padding: 9px;
+    gap: 8px;
+  }
+  .workspace-selector strong {
+    font-size: 10px;
+  }
+  .nav-item {
+    padding-inline: 12px;
+  }
+  .sidebar-user {
+    margin-inline: -13px;
+    padding-inline: 13px;
+  }
+  .main-content {
+    padding-inline: 25px;
+  }
+  .topbar {
+    padding-inline: 25px;
+  }
+  .topbar-right {
+    gap: 14px;
+  }
+  .global-search input {
+    width: 133px;
+  }
+  .global-search kbd {
+    display: none;
+  }
+  .page-heading {
+    align-items: flex-start;
+  }
+  .page-heading h1 {
+    font-size: 26px;
+  }
+  .heading-actions {
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 7px;
+    max-width: 166px;
+    margin-top: 8px;
+  }
+  .date-chip {
+    padding: 8px 10px;
+  }
+  .heading-actions .button {
+    min-height: 31px;
+    padding: 7px 11px;
+  }
+  .stat-card {
+    padding: 14px;
+  }
+  .stat-value {
+    font-size: 28px;
+  }
+  .stat-value.currency-value {
+    font-size: 22px;
+    line-height: 2;
+  }
+  .stat-note {
+    font-size: 8px;
+  }
+  .charts-grid {
+    gap: 15px;
+    grid-template-columns: minmax(0, 1.7fr) minmax(245px, 1fr);
+  }
+  .panel-heading {
+    padding-inline: 16px;
+  }
+  .product-toolbar {
+    flex-wrap: wrap;
+    gap: 13px;
+    padding-inline: 15px;
+  }
+  .table-controls {
+    margin-left: auto;
+  }
+  .product-table th,
+  .product-table td {
+    padding-inline: 10px;
+  }
+  .product-table th:first-child,
+  .product-table td:first-child {
+    padding-left: 16px;
+  }
+  .product-table th:nth-child(2),
+  .product-table td:nth-child(2) {
+    display: none;
+  }
+  .health-legend {
+    padding-inline: 16px;
+    gap: 7px;
+  }
+  .health-legend > button + button {
+    padding-left: 9px;
+  }
+  .attention-products {
+    display: none;
+  }
+  .product-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .cart-layout {
+    grid-template-columns: 1fr;
+  }
+  .cart-summary {
+    max-width: 430px;
+    width: 100%;
+    margin-left: auto;
+  }
+  .toast {
+    left: calc(50% + 106px);
+  }
+  .sidebar-bottom {
+    padding-top: 45px;
+  }
+}
+@media (max-width: 1000px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px;
+  }
+  .stat-card {
+    padding: 15px 18px;
+  }
+  .stat-value.currency-value {
+    font-size: 28px;
+    line-height: 1.6;
+  }
+  .stat-note {
+    font-size: 9px;
+  }
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+  .health-panel {
+    display: grid;
+    grid-template-columns: 1fr 150px 1.2fr;
+    align-items: center;
+  }
+  .health-panel .panel-heading {
+    padding: 20px;
+    display: block;
+  }
+  .health-panel .muted-icon {
+    display: none;
+  }
+  .health-panel .donut-wrap {
+    height: 166px;
+  }
+  .health-panel .donut {
+    width: 118px;
+    height: 118px;
+  }
+  .health-panel .donut-hole {
+    width: 96px;
+    height: 96px;
+  }
+  .health-panel .donut-hole > span {
+    font-size: 26px;
+  }
+  .health-panel .donut-hole p {
+    font-size: 7px;
+  }
+  .health-panel .donut-orbit {
+    display: none;
+  }
+  .health-legend {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    padding: 20px;
+  }
+  .health-legend button {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+  }
+  .health-legend > button + button {
+    padding: 0;
+    border: 0;
+  }
+  .health-legend button > span {
+    font-size: 9px;
+  }
+  .health-legend strong {
+    margin: 0;
+    font-size: 13px;
+    gap: 15px;
+  }
+  .global-search input {
+    width: 105px;
+    font-size: 9px;
+  }
+  .global-search {
+    gap: 6px;
+  }
+  .topbar-right {
+    gap: 12px;
+  }
+  .topbar-divider {
+    display: none;
+  }
+  .connection-chip {
+    font-size: 9px;
+  }
+  .breadcrumb {
+    gap: 8px;
+    font-size: 10px;
+  }
+  .page-heading h1 {
+    font-size: 23px;
+  }
+  .page-heading p {
+    font-size: 10px;
+    max-width: 290px;
+  }
+  .heading-actions {
+    max-width: 135px;
+  }
+  .date-chip {
+    font-size: 9px;
+  }
+  .attention-banner p {
+    max-width: 280px;
+  }
+  .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .bar-chart {
+    height: 220px;
+  }
+  .chart-plot,
+  .chart-y-axis {
+    height: 165px;
+  }
+  .bar-label {
+    font-size: 8px;
+  }
+  .table-controls {
+    width: 100%;
+    margin: 0;
+  }
+  .table-search {
+    flex: 1;
+  }
+  .table-search input {
+    width: 100%;
+  }
+  .product-table {
+    min-width: 580px;
+  }
+  .product-toolbar {
+    gap: 10px;
+  }
+  .filter-tabs {
+    width: 100%;
+  }
+  .filter-tabs button {
+    flex: 1;
+  }
+  .products-heading .text-button {
+    font-size: 9px;
+  }
+  .panel h2 {
+    font-size: 12px;
+  }
+  .products-heading p {
+    font-size: 9px;
+  }
+}
+@media (max-width: 760px) {
+  .sidebar {
+    width: 238px;
+    transform: translateX(-100%);
+    transition:
+      transform 0.22s ease,
+      visibility 0.22s;
+    visibility: hidden;
+  }
+  .sidebar.open {
+    transform: translateX(0);
+    visibility: visible;
+  }
+  .sidebar-overlay {
+    display: block;
+    position: fixed;
+    inset: 0;
+    background: #060c08a6;
+    z-index: 29;
+    backdrop-filter: blur(3px);
+  }
+  .main-shell {
+    margin-left: 0;
+  }
+  .brand-version {
+    display: inline;
+  }
+  .brand {
+    gap: 10px;
+    font-size: 29px;
+  }
+  .workspace-selector strong {
+    font-size: 12px;
+  }
+  .nav-item {
+    font-size: 13px;
+    padding: 13px 15px;
+  }
+  .sidebar-user {
+    min-height: 78px;
+  }
+  .sidebar-bottom {
+    padding-top: 35px;
+  }
+  .sidebar-tip {
+    margin-top: 10px;
+  }
+  .topbar {
+    height: 65px;
+    padding: 0 20px;
+    gap: 10px;
+  }
+  .mobile-menu {
+    display: inline-flex;
+    margin-left: -6px;
+    width: 27px;
+  }
+  .breadcrumb {
+    gap: 9px;
+  }
+  .breadcrumb > span,
+  .breadcrumb > svg {
+    display: none;
+  }
+  .breadcrumb > strong {
+    font-size: 12px;
+  }
+  .topbar-right {
+    gap: 11px;
+  }
+  .global-search input {
+    width: 135px;
+    font-size: 10px;
+  }
+  .topbar-avatar {
+    display: none;
+  }
+  .connection-chip {
+    font-size: 9px;
+    padding: 5px 7px;
+  }
+  .main-content {
+    padding: 28px 20px 0;
+  }
+  .page-heading {
+    margin-bottom: 21px;
+    gap: 12px;
+  }
+  .page-heading h1 {
+    font-size: 25px;
+    letter-spacing: -0.8px;
+  }
+  .page-heading p {
+    font-size: 11px;
+    max-width: 345px;
+  }
+  .heading-actions {
+    max-width: 145px;
+    margin-top: 26px;
+  }
+  .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1.3px;
+  }
+  .date-chip {
+    font-size: 9px;
+    padding: 8px;
+  }
+  .heading-actions .button {
+    font-size: 10px;
+  }
+  .stats-grid {
+    gap: 13px;
+    margin-bottom: 18px;
+  }
+  .stat-card {
+    padding: 17px;
+  }
+  .stat-value {
+    font-size: 31px;
+    margin: 8px 0;
+  }
+  .stat-value.currency-value {
+    font-size: 28px;
+  }
+  .stat-top {
+    font-size: 11px;
+  }
+  .stat-note {
+    font-size: 9px;
+  }
+  .charts-grid {
+    gap: 17px;
+    margin-bottom: 17px;
+  }
+  .bar-chart {
+    height: 220px;
+  }
+  .chart-plot,
+  .chart-y-axis {
+    height: 170px;
+  }
+  .panel-heading {
+    padding: 20px 18px 0;
+  }
+  .panel h2 {
+    font-size: 13px;
+  }
+  .panel-heading p {
+    font-size: 10px;
+  }
+  .products-heading {
+    padding-bottom: 18px;
+  }
+  .health-panel .panel-heading {
+    padding: 20px;
+  }
+  .health-panel .donut-wrap {
+    height: 160px;
+  }
+  .attention-banner {
+    padding: 13px;
+    gap: 10px;
+  }
+  .attention-banner > div > p {
+    font-size: 9px;
+    max-width: 280px;
+  }
+  .attention-banner > .text-button {
+    font-size: 9px;
+    gap: 4px;
+  }
+  .product-toolbar {
+    padding-inline: 15px;
+  }
+  .filter-tabs button {
+    font-size: 10px;
+    padding: 8px 6px;
+  }
+  .table-search input,
+  .sort-select select {
+    font-size: 10px;
+  }
+  .table-search {
+    padding: 9px 10px;
+  }
+  .product-table th {
+    font-size: 9px;
+    padding-block: 12px;
+  }
+  .product-table td {
+    padding-block: 13px;
+    font-size: 11px;
+  }
+  .product-name-button {
+    font-size: 11px;
+  }
+  .product-name-button small {
+    font-size: 8px;
+  }
+  .product-table {
+    min-width: 650px;
+  }
+  .table-footer {
+    padding: 12px 15px;
+    font-size: 9px;
+  }
+  .product-grid {
+    gap: 12px;
+    padding-inline: 15px;
+  }
+  .product-card-info {
+    padding: 12px;
+  }
+  .product-card-info h3 {
+    font-size: 12px;
+  }
+  .product-card-art {
+    height: 160px;
+  }
+  .page-footer {
+    padding-block: 24px;
+    font-size: 8px;
+  }
+  .toast {
+    left: 50%;
+    bottom: 18px;
+  }
+  .cart-product h3 {
+    font-size: 12px;
+  }
+  .cart-item {
+    gap: 11px;
+  }
+  .cart-subtotal {
+    font-size: 12px;
+  }
+  .cart-summary {
+    max-width: none;
+  }
+  .cart-empty {
+    min-height: 420px;
+  }
+  .error-banner {
+    flex-wrap: wrap;
+  }
+  .error-banner > p {
+    flex-basis: calc(100% - 40px);
+  }
+  .error-banner > button {
+    margin-left: 30px;
+  }
+}
+@media (max-width: 480px) {
+  .main-content {
+    padding: 23px 15px 0;
+  }
+  .topbar {
+    padding-inline: 15px;
+  }
+  .topbar-right {
+    gap: 10px;
+  }
+  .global-search input {
+    width: 92px;
+    font-size: 9px;
+  }
+  .global-search > svg {
+    width: 14px;
+  }
+  .breadcrumb > strong {
+    font-size: 11px;
+  }
+  .page-heading {
+    display: block;
+    position: relative;
+    margin-bottom: 17px;
+  }
+  .page-heading h1 {
+    font-size: 25px;
+    margin-top: 9px;
+  }
+  .page-heading p {
+    font-size: 10.5px;
+    max-width: 100%;
+  }
+  .heading-actions {
+    max-width: none;
+    margin-top: 17px;
+    justify-content: space-between;
+  }
+  .heading-actions .button {
+    min-height: 33px;
+  }
+  .date-chip {
+    border: none;
+    padding: 0;
+    background: none;
+    color: #849789;
+    font-size: 10px;
+  }
+  .date-chip svg {
+    width: 13px;
+  }
+  .stats-grid {
+    gap: 10px;
+  }
+  .stat-card {
+    padding: 14px 13px;
+  }
+  .stat-top {
+    font-size: 10px;
+  }
+  .stat-icon {
+    width: 26px;
+    height: 26px;
+    border-radius: 6px;
+  }
+  .stat-icon svg {
+    width: 16px;
+  }
+  .stat-value {
+    font-size: 28px;
+    line-height: 1.7;
+  }
+  .stat-value > span {
+    font-size: 8px;
+    padding-left: 5px;
+  }
+  .stat-value.currency-value {
+    font-size: 22px;
+    line-height: 2.15;
+    letter-spacing: -0.8px;
+  }
+  .stat-note {
+    font-size: 7.5px;
+    gap: 4px;
+  }
+  .tiny-dot {
+    width: 3px;
+    height: 3px;
+  }
+  .panel-heading {
+    padding-inline: 15px;
+    gap: 8px;
+  }
+  .panel h2 {
+    font-size: 12px;
+  }
+  .panel-heading p {
+    font-size: 9px;
+  }
+  .select-wrap select {
+    font-size: 8px;
+    padding-inline: 8px 24px;
+  }
+  .bar-chart {
+    padding-inline: 15px;
+    height: 206px;
+  }
+  .chart-plot,
+  .chart-y-axis {
+    height: 156px;
+  }
+  .chart-bars {
+    gap: 9px;
+  }
+  .bar-track {
+    width: 75%;
+  }
+  .bar-label {
+    font-size: 6.5px;
+  }
+  .chart-y-axis {
+    font-size: 7px;
+    width: 21px;
+  }
+  .chart-footer {
+    margin-top: 15px;
+    padding-inline: 17px;
+    font-size: 8px;
+  }
+  .health-panel {
+    grid-template-columns: 145px 1fr;
+  }
+  .health-panel .panel-heading {
+    grid-column: 1 / -1;
+    display: flex;
+    padding: 20px 15px 0;
+  }
+  .health-panel .muted-icon {
+    display: inline;
+  }
+  .health-panel .donut-wrap {
+    height: 164px;
+  }
+  .health-panel .donut {
+    width: 111px;
+    height: 111px;
+  }
+  .health-panel .donut-hole {
+    width: 90px;
+    height: 90px;
+  }
+  .health-legend {
+    padding: 18px 22px 18px 10px;
+    gap: 16px;
+  }
+  .health-legend button > span {
+    font-size: 10px;
+  }
+  .health-legend strong {
+    font-size: 14px;
+  }
+  .attention-banner {
+    padding: 12px;
+    flex-wrap: wrap;
+    gap: 9px;
+  }
+  .attention-banner > div:not(.attention-products) {
+    flex-basis: calc(100% - 50px);
+  }
+  .attention-banner strong {
+    font-size: 10px;
+  }
+  .attention-banner p {
+    font-size: 8px;
+  }
+  .attention-banner > .text-button {
+    margin-left: 44px;
+    padding-top: 0;
+  }
+  .attention-icon {
+    width: 32px;
+    height: 32px;
+  }
+  .products-heading .text-button {
+    font-size: 8px;
+  }
+  .products-heading .text-button svg {
+    width: 13px;
+  }
+  .products-heading h2 {
+    gap: 4px;
+    font-size: 11.5px;
+  }
+  .count-badge {
+    font-size: 7px;
+    margin-left: 3px;
+  }
+  .filter-tabs {
+    gap: 1px;
+  }
+  .filter-tabs button {
+    font-size: 9px;
+    gap: 4px;
+    padding-inline: 5px;
+  }
+  .filter-tabs button > span {
+    font-size: 7px;
+  }
+  .tab-dot {
+    display: none;
+  }
+  .products-heading {
+    padding-bottom: 17px;
+  }
+  .table-footer {
+    font-size: 8px;
+    padding-inline: 13px;
+  }
+  .pagination {
+    gap: 7px;
+  }
+  .product-card-info h3 {
+    font-size: 10px;
+    min-height: 33px;
+  }
+  .product-card-art {
+    height: 125px;
+  }
+  .product-art.large {
+    width: 70px;
+    height: 70px;
+  }
+  .product-art.large svg {
+    width: 42px;
+  }
+  .product-card-meta {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .product-card-meta strong {
+    font-size: 12px;
+  }
+  .product-card-actions {
+    gap: 3px;
+  }
+  .product-card-actions > .button {
+    font-size: 8px;
+    gap: 3px;
+  }
+  .product-card-actions > .button svg {
+    width: 13px;
+  }
+  .product-card-actions > .icon-button {
+    width: 23px;
+  }
+  .product-grid {
+    gap: 10px;
+    padding: 0 12px 15px;
+  }
+  .product-card-info {
+    padding: 10px;
+  }
+  .product-card-art > .status-badge {
+    top: 7px;
+    left: 7px;
+    font-size: 7px;
+    padding: 4px;
+  }
+  .product-sku {
+    font-size: 8px;
+  }
+  .page-footer {
+    font-size: 7px;
+  }
+  .footer-logo {
+    font-size: 15px;
+  }
+  .cart-item {
+    padding: 18px 15px;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 15px;
+  }
+  .cart-product {
+    flex-basis: calc(100% - 55px);
+  }
+  .cart-item > .quantity-control {
+    margin-left: 47px;
+  }
+  .cart-subtotal {
+    margin-left: auto;
+  }
+  .cart-bottom {
+    padding-inline: 15px;
+  }
+  .cart-bottom > span {
+    display: none;
+  }
+  .cart-items .panel-heading {
+    align-items: flex-start;
+  }
+  .cart-items .panel-heading .text-button {
+    font-size: 9px;
+  }
+  .cart-summary {
+    padding: 22px 19px;
+  }
+  .cart-empty .eyebrow {
+    font-size: 6px;
+    letter-spacing: 1.1px;
+  }
+  .cart-empty h2 {
+    font-size: 23px;
+  }
+  .cart-empty p {
+    font-size: 10px;
+  }
+  .modal {
+    padding: 8px;
+    max-width: calc(100% - 10px);
+  }
+  .modal-content {
+    padding: 22px;
+  }
+  .modal-heading h2 {
+    font-size: 17px;
+  }
+  .modal-heading p {
+    font-size: 10px;
+  }
+  .modal-actions {
+    gap: 8px;
+  }
+  .modal-actions .button {
+    font-size: 10px;
+    padding-inline: 12px;
+  }
+  .product-dialog-preview {
+    flex-wrap: wrap;
+    padding: 12px;
+  }
+  .product-dialog-preview > .status-badge {
+    margin-left: 49px;
+  }
+  .toast {
+    max-width: calc(100vw - 30px);
+  }
+  .toast p {
+    font-size: 10px;
+  }
+}
+@media (max-height: 780px) and (min-width: 761px) {
+  .sidebar {
+    padding-top: 23px;
+  }
+  .workspace-selector {
+    margin-block: 25px;
+  }
+  .sidebar-bottom {
+    padding-top: 30px;
+  }
+  .sidebar-tip {
+    padding: 13px;
+  }
+  .sidebar-tip .tip-decoration {
+    display: none;
+  }
+  .sidebar-tip strong {
+    font-size: 11px;
+    max-width: 155px;
+  }
+  .sidebar-tip p {
+    font-size: 9px;
+  }
+  .sidebar-help {
+    padding-block: 20px;
+  }
+  .sidebar-user {
+    padding-block: 14px;
+    min-height: 68px;
+  }
+}
+@media (max-height: 650px) {
+  .sidebar {
+    overflow-y: auto;
+  }
+  .sidebar-bottom {
+    padding-top: 30px;
+  }
+  .sidebar-tip {
+    display: none;
+  }
+}
